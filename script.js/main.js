@@ -159,9 +159,26 @@ let sliderOptions = {
   dots: true,
   //titles: true,
   autoplay: true,
-  autoplayInterval: 11000
+  autoplayInterval: 13000
 };
 
 document.addEventListener("DOMContentLoaded", function() {
   initSlider(sliderOptions);
+});
+
+const cardOff = document.querySelector('.cardOff_tree');//нажимаем на елку, чтобы  выключить Деда Мороза и Снегурку
+//const photoOff = document.querySelector('.photoOff img');//нужно если нажимать на самого Деда Мороза и Снегурку, чтобы их выключить
+// можно нажимать на самого Деда Мороза и Снегурку /*photoOff*/
+cardOff/*photoOff*/.addEventListener('click', function showHide(event) {
+  event.stopPropagation();//чтоб событие не всплывало 
+  const photoOff = document.querySelector('.photoOff img');/*dancingSantaWithShowMaiden*/
+    //photoOff.style.cursor = "pointer";
+  if (photoOff.style.display == "block") { // если элемент найден // 
+    photoOff.style.display = "none";
+    return true;
+  } else { // иначе он не найден
+    photoOff.style.display = "block";
+    return false;
+  }
+  //alert("hi");
 });

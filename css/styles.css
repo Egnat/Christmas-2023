@@ -154,21 +154,26 @@ border-radius: 117px;
 }
 
 .iframe {
-position: absolute;	
-top: 1179px;
+position: absolute;
+width: 1280px;
+height: 720px;	
+top: 1290px;
+box-shadow: 0px 6px 63px 20px #0f3348;
+background-image: url('http://i.ytimg.com/vi/09imh5PoQFI/maxresdefault.jpg');
+background-size: cover;
 }
 
 .newYearDistrict {
 position: absolute;
 width: 1280px;
 height: 148px;
-bottom: -25px;
+bottom: 772px;
 }
 
 .gouingSanta {
 position: absolute;
 width: 153px;
-bottom: -48px;
+bottom: 733px;
 animation-name: go;
 animation-delay: 500s;
 animation: go 45s infinite;
@@ -181,44 +186,52 @@ to { left:1125px; } /*ставим размер экрана, чтобы гуг�
 
 .cat-in-cap {
 position: absolute;
-width: 304px;
-top: 73px;
+width: 234px;
+top: 496px;
+left: 977px;
 }
 
 .christmas-vinok-2 {
 position: absolute;
-width: 225px;
-height: 203px;
-top: 47px;
-left: 322px;
+width: 176px;
+height: 165px;
+top: 12px;
+left: 19px;
 z-index: 1;
 }
 
 .video {
 position: absolute;
-width: 647px;
-height: 361px;
-top: 41px;
-left: 316px;
-box-shadow: 0px 0px 12px 25px #0d17f3a8;	
+width: 216px;
+height: 114px;
+top: 30px;
+left: 221px;
+ox-shadow: 0px 0px 12px 25px #0d17f3a8; 
 }
 
 .bells {
 position: absolute;
 top: 44px;
-left: 748px;
+left: 1076px;
 }
 
 .dancingSanta-1 {
 position: absolute;
-width: 344px;
-top: 49px;
-left: 935px;
+width: 129px;
+top: 394px;
+left: 584px;
+}
+
+.showMaiden {
+position: absolute;
+width: 81px;
+top: 443px;
+left: 391px;
 }
 
 .section-slider {
 position: absolute;
-top: 1806px;
+top: 2307px;
 left: 193px;
 ox-shadow: 0px 0px 5px 80px #5811d5;
 padding-bottom: 113p;/*падинги взял с другого слайдера, они для выпуклости слайдера, но нужно настроить бокс шедоу и кнопки, чтобы слайдер казался выпуклым*/
@@ -398,7 +411,7 @@ left: 995px;
 
 .iframe-2 {
 position: absolute;
-top: 2713px;
+top: 3236px;
 }
 
 .garland-5 {
@@ -410,8 +423,20 @@ bottom: 31px;
 .dancingSanta {
 position: absolute;
 width: 426px;
-right: -375px;
+right: -303px;
 bottom: -313px;   
+}
+
+.photoOff {
+position: absolute;
+top: 29px;
+left: 713px;
+margin: 0;
+z-index: 1;
+}
+
+.dancingSantaWithShowMaiden {
+width: 230px;
 }
 
 .video-unc-unc {
@@ -440,7 +465,7 @@ transition: all 2s ease-out .2s;/*фото медленно увеличивае
 position: absolute;
 width: 1280px;
 height: 769px;
-top: 3933px;
+top: 4487px;
 left: 0px;
 background-image: url('https://kartinki-life.ru/articles/2019/11/29/otkrytki-mercaushhie-animacionnye-gif-s-rozhdestvom-hristovym-17-7.gif');
 background-size: cover;
