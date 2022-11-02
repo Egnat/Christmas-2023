@@ -428,10 +428,10 @@ left: 951px;
 
 .house-in-side {
 position: absolute;
-width: 1273px;
+width: 1278px;
 height: 769px;
 top: 3933px;
-left: 5px;
+left: 0px;
 background-image: url('https://kartinki-life.ru/articles/2019/11/29/otkrytki-mercaushhie-animacionnye-gif-s-rozhdestvom-hristovym-17-7.gif');
 background-size: cover;
 }
@@ -471,7 +471,7 @@ bottom: 696px;
 @media screen and (max-width: 1300px) {}
 
 @media screen and (max-width: 1024px) {
-.house-in-side { left: 2px; }  
+.house-in-side { left: 0px; }  
 .photo-christmas-socks { left: 0p; }	
 }
 
@@ -480,9 +480,9 @@ bottom: 696px;
 }
 
 @media screen and (max-width: 425px) {
-.house-in-side { left: 2px; }  
+.house-in-side { left: 0px; }  
 }
 
 @media screen and (max-width: 375px) {
-.house-in-side { left: 2px; }  
+.house-in-side { left:0px; }  
 }
