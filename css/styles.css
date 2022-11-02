@@ -468,8 +468,6 @@ bottom: 696px;
 }
 
 
-
-
 @media screen and (max-width: 1300px) {}
 
 @media screen and (max-width: 1024px) {
@@ -478,7 +476,7 @@ bottom: 696px;
 }
 
 @media screen and (max-width: 768px) {
-.house-in-side { left: 2px; }  
+.house-in-side { width: 1278px;left: 0px; }  
 }
 
 @media screen and (max-width: 425px) {
