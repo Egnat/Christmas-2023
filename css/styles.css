@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
-  width : 1px; 
-  height: 2px;
+  width : 0.1px; 
+  height: 5px;
   pacity: 0.02;
 } /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
 
@@ -209,11 +209,11 @@ top: 44px;
 left: 741px;
 }
 
-.tree {
+.dancingSanta-1 {
 position: absolute;
-width: 297px;
-top: 57px;
-left: 977px;
+width: 344px;
+top: 49px;
+left: 935px;
 }
 
 .section-slider {
@@ -420,10 +420,20 @@ left: 388px;
 box-shadow: 0px 0px 32px 23px #dbba0c;
 }
 
-.dancingSanta-1 {
+.tree {
 position: absolute;
-width: 313px;
-left: 951px;
+width: 258px;
+top: 8px;
+left: 1011px;
+z-index: 1;
+cursor: pointer;
+}
+
+tree:hover {
+width: 223px;
+height: 185px;
+transform: matrix(3, 0, 0, 2, -291, -24);  
+transition: all 2s ease-out .2s;/*фото медленно увеличивается. есть пока баг*/ 
 }
 
 .house-in-side {

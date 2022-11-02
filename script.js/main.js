@@ -2,7 +2,7 @@ let images = [{
     url: "https://postila.ru/data/29/9a/52/00/299a520014c873af8eb5481bce94d635088a70e17ced4352b5f4ff1f0985c616.gif",
     //title: "Желаю всего самого наилучшего !"
   }, {
-    url: "https://kartinkigif.ru/_ph/56/2/987376522.gif",
+    url: "http://img0.liveinternet.ru/images/attach/c/8/102/722/102722324_81966463_Rozhd.gif",
     //title: "С Рождественским сочельником"
   }, {
     url: "https://s-zametki.ru/wp-content/uploads/2018/01/animatsionnye-otkrytki-s-rozhdestvom-samye-krasivye-rozhdestvenskie-1.gif",
@@ -24,7 +24,7 @@ let images = [{
     //title:"" 
   }, {
     url:"https://i0.wp.com/lifeo.ru/wp-content/uploads/gif-s-rozhdestvom-30-gap.jpg",
-    //title:'Горд наш заметает поршею. Рождество к нам приходит опять. Яжелаю Вам только хорошего. То, что можно друзьям пожелать !'
+    //title:'Город наш заметает поршею. Рождество к нам приходит опять. Яжелаю Вам только хорошего. То, что можно друзьям пожелать !'
   }, {
     url:'https://bestgif.su/_ph/13/2/844935174.gif',
     //title:''
@@ -39,6 +39,15 @@ let images = [{
      //title:''
   }, {
     url:'https://avatars.dzeninfra.ru/get-zen_doc/3965361/pub_5ff59ad9bb14d54ffbaf34cd_5ff5a16aaf142f0b17817bfd/orig',
+    //title:''
+  }, {
+    url:'https://proprikol.ru/wp-content/uploads/2019/12/gifki-animaczii-s-rozhdestvom-58.gif',
+   //title:''
+  }, {
+    url:'https://ferma-biz.ru/wp-content/uploads/2019/12/siyayuschaya-gif-otkritka-na-katolicheskoe-rozhdestvo.orig_-1.gif',
+    //title:''
+  }, {
+    url:'https://www.cobracountry.com/wp-content/uploads/Xmas/Xmas-anim-whiteXmas-590x424.gif',
     //title:''
   }
   ];
