@@ -451,7 +451,7 @@ bottom: 854px;
 left: 1039px;
 animation-name: gouing;
 animation-delay: 500s;
-animation: go 45s infinite;
+animation: gouing 45s infinite;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
