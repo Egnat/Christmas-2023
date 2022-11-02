@@ -218,7 +218,7 @@ left: 977px;
 
 .section-slider {
 position: absolute;
-top: 1828px;
+top: 1806px;
 left: 193px;
 ox-shadow: 0px 0px 5px 80px #5811d5;
 padding-bottom: 113p;/*падинги взял с другого слайдера, они для выпуклости слайдера, но нужно настроить бокс шедоу и кнопки, чтобы слайдер казался выпуклым*/
@@ -475,4 +475,8 @@ bottom: 696px;
 @media screen and (max-width: 1024px) {
 
 .photo-christmas-socks { left: 0p; }	
+}
+
+@media screen and (max-width: 375px) {
+.house-in-side { left: 2px; }  
 }
