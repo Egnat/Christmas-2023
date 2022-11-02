@@ -473,8 +473,16 @@ bottom: 696px;
 @media screen and (max-width: 1300px) {}
 
 @media screen and (max-width: 1024px) {
-
+.house-in-side { left: 2px; }  
 .photo-christmas-socks { left: 0p; }	
+}
+
+@media screen and (max-width: 768px) {
+.house-in-side { left: 2px; }  
+}
+
+@media screen and (max-width: 425px) {
+.house-in-side { left: 2px; }  
 }
 
 @media screen and (max-width: 375px) {
