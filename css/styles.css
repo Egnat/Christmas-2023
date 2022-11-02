@@ -1,0 +1,478 @@
+::-webkit-scrollbar {
+  width : 2px; 
+  height: 10px;
+  pacity: 0.02;
+} /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
+
+::-webkit-scrollbar-button {height: 50px; background :#42e10e; }  /*2 - кнопка*/  
+
+::-webkit-scrollbar-track {background: #274dd7; }  /*3 - трек */ 
+
+::-webkit-scrollbar-track-piece { background: #e91e63;}  /*4 - видимая часть трека */ 
+
+::-webkit-scrollbar-thumb {background: #fbe100; border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+body {
+margin: 0 auto;
+box-sizing: border-box;
+background-image: url("https://www.chitalnya.ru/upload3/435/f56a1bdcaefa1a422fa0b8eccd786382.gif");
+}
+
+christmas-photo {
+width: 1278p;
+height: 86p;
+argin: 0 auto;
+ackground-image: rl("http://3rebenka.ru/wp-content/uploads/nygif/xmas14012.gif");
+ackground-size: cover;
+}
+
+.Christmas-1 {
+osition: absolute;
+width: 1278px;
+height: 86px;
+bottom: 795px;
+}
+
+.garland-2 {
+position: absolute;
+width: 1277px;
+bottom: 426px;
+z-index: 1;
+}
+
+.text-h1 {
+osition: absolute;
+width: 1220px;
+margin-top: 35px;
+margin-left: 58px;
+top: 47p;
+left: 36p;
+color: #ed0606;
+
+font-family: 'Yeseva One';
+font-style: oblique;
+font-weight: bold;
+font-size: 64px;  
+ext-transform: uppercase;
+}
+
+.christmas-photos {
+position: absolute;
+top: 575px;
+}
+
+.christmas-vinok {
+position: absolute;
+width: 318p;
+bottom: 196px;
+left: -11px;
+}
+
+.christmas-ball-1 {
+position: absolute;
+width: 201px;
+bottom: 76px;
+left: 914px;
+border-radius: 110px;
+}
+
+.video_christmas-photos {
+position: absolute;
+width: 458px;
+height: 254px;
+bottom: 82px;
+left: 427px;
+box-shadow: 0px 0px 28px 20px #cf1f1f;
+}
+
+.magic-flashlight {
+position: absolute;
+width: 223px;
+height: 185px;
+bottom: 78px;
+left: 179px;
+border-radius: 12p;
+cursor: pointer;
+z-index: 1;
+ransform: matrix(1, 0, 0, 1, 4, 2/*3, 0, 0, 3, 76, 1*/);/* это лучше ставить в hover */ 
+}
+
+.magic-flashlight:hover {
+width: 223px;
+height: 185px;
+transform:matrix(5, 0, 0, 4, 311, 39);  
+transition: all 2s ease-out .2s;/*фото медленно увеличивается*/ 
+}
+
+.dancingShowman {
+position: absolute;
+width: 201px;
+bottom: 6px;
+left: 1076px;
+}
+
+.dancingShowman-1 {
+position: absolute;
+width: 201px;
+bottom: 4px;
+left: 5px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.christmas-socks-3 {
+position: absolute;
+width: 186px;
+bottom: 202px;
+left: 1091px;
+}
+
+.christmas-ball {
+position: absolute;
+width: 318px;
+top: 48px;
+left: 9px;
+}
+
+.christmas-star {
+position: absolute;
+width: 534px;
+height: 446px;
+bottom: -434px;
+left: 388px;
+box-shadow: 0px 0px 17px 20px #52470b;
+}
+
+.Christmas {
+position: absolute;
+width: 303px;
+height: 397px;
+bottom: -451px;
+left: 975px;
+border-radius: 117px;
+}
+
+.iframe {
+position: absolute;	
+top: 1179px;
+}
+
+.newYearDistrict {
+position: absolute;
+width: 1278px;
+height: 148px;
+bottom: -25px;
+}
+
+.gouingSanta {
+position: absolute;
+width: 153px;
+bottom: -48px;
+animation-name: go;
+animation-delay: 500s;
+animation: go 45s infinite;
+}
+
+@keyframes go {
+from { left:0px; }
+to { left:1125px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+}
+
+.cat-in-cap {
+position: absolute;
+width: 304px;
+top: 73px;
+}
+
+.christmas-vinok-2 {
+position: absolute;
+width: 225px;
+height: 203px;
+top: 47px;
+left: 302px;
+z-index: 1;
+}
+
+.video {
+position: absolute;
+width: 647px;
+height: 361px;
+top: 41px;
+left: 297px;
+box-shadow: 0px 0px 12px 25px #0d17f3a8;	
+}
+
+.bells {
+position: absolute;
+top: 44px;
+left: 741px;
+}
+
+.tree {
+position: absolute;
+width: 297px;
+top: 57px;
+left: 977px;
+}
+
+.section-slider {
+position: absolute;
+top: 1828px;
+left: 193px;
+ox-shadow: 0px 0px 5px 80px #5811d5;
+padding-bottom: 113p;/*падинги взял с другого слайдера, они для выпуклости слайдера, но нужно настроить бокс шедоу и кнопки, чтобы слайдер казался выпуклым*/
+padding-top: 158p;
+padding-right: 24p;
+padding-left: 90p;
+background-color: gre;/*и установить быкграунд*/
+}
+
+.garland-6 {
+position: absolute;
+width: 1241px;
+height: 204px;
+right: -171px;
+bottom: 702px;  
+}
+
+.slider-wrapper {
+osition: absolute; 
+display: flex;
+justify-content: center;
+width: 100%;
+padding: 20p;
+border-radius: 6px;
+ox-shadow: 0px 0px 9px 59px #422d25;
+}
+
+.slider {
+position: relative;
+argin: 20px 0;
+ox-shadow: 0px 0px 11px 26px rgb(229 218 218 / 75%); /*это шедоу для выпуклости слайдера, в этом проекте для эффекта картины*/  
+}
+
+.slider:before {
+background-color: #fff9f6;
+bottom: -5.4em;
+box-shadow: inset 0 0px 6px 9px hsl(0deg 3% 28% / 15%), inset 0 9px 8px hsl(0deg 3% 27% / 2%), 0 0px 0px hsl(0deg 0% 0% / 34%), 0 0px 0px 0px hsl(0deg 2% 22% / 36%), 0 30px 20px 17px hsl(0deg 31% 11% / 23%), 0 40px 20px -15px hsl(0deg 4% 10% / 14%);
+content: '';
+left: -5.5em;
+position: absolute;
+right: -5.5em;
+top: -6.5em;
+z-index: -1;
+}
+
+.slider:after { 
+background-color: #a7a7a700;
+bottom: -0.8em;
+box-shadow: 0 13px 4px hsl(0deg 0% 100% / 28%), 0 -2px 6px 11px hsl(0deg 0% 0% / 38%), inset 0 26px 10px 24px hsl(0deg 0% 0% / 5%), inset 0 4px 0px -5px hsl(0deg 0% 0% / 38%), inset 0 0px 44px 12px hsl(0deg 0% 0% / 52%);
+content: '';
+left: 0.2em;
+position: absolute;
+right: -0.8em;
+top: -0.8em;
+z-index: -1;
+}
+
+.slider__images {
+position: relative;
+width: 901px;
+height: 685px;
+}
+
+.slider__images-title {
+position: absolute;
+left: 135px;
+bottom: 800p;
+width: 74%;
+ackground: rgba(0,0,0,0.5);
+color: #fff;
+text-align: center;
+z-index: 1;
+padding: 7px 0;
+font-size: 34px;
+}
+
+.slider__images .image {
+background-size: cover;
+background-position: center center;
+width: 98%;
+height: 100%;
+position: absolute;
+left: 18px;
+top: 0px;
+opacity: 0;
+transition: opacity 800ms ease;
+}
+
+.slider__images .image.active {
+opacity: 1;
+}
+
+.slider__arrows {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+color: /*#fff*/#9e9e9e45;
+}
+
+.slider__arrows:hover {
+color: #fff;
+}
+
+.slider__arrow {
+position: absolute;
+width: 15%;
+height: 100%;
+font-size: 20px;
+text-align: center;
+cursor: pointer;
+opacity: 0/*.4*/; /*Прозрачность кнопок стрелок*/
+background-color: #0000003b/*rgba(0, 0, 0, 0.4)*/;
+transition: opacity 0.4s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/*показатели для кнопок-стрелок, чтобы слайдер казался выпуклым
+    background-color: #808080;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;*/
+
+
+.slider__arrow:hover {
+opacity: 1;
+}
+
+.slider__arrow.left {
+left: 18px;
+}
+
+.slider__arrow.right {
+right: 0px;
+}
+
+.slider__dots {
+display: flex;
+justify-content: center;
+position: absolute;
+left: 0;
+bottom: -56px;
+width: 100%;
+}
+
+.slider__dots-item {
+width: 22px;
+height: 19px;
+background-color: #fbfbfb;
+border-radius: 50%;
+margin: 0 5px;
+cursor: pointer;
+transition: background 0.4s ease;
+}
+
+.slider__dots-item:hover, .slider__dots-item.active {
+background-color: #f3f3f3/*#000*/;
+}
+
+.garland-3 {
+position: absolute;
+width: 69px;
+height: 842px;
+right: 1009px;
+bottom: -57px;
+}
+
+.garland-4 {
+position: absolute;
+width: 90px;
+height: 876px;
+bottom: -72px;
+left: 995px; 
+}
+
+.iframe-2 {
+position: absolute;
+top: 2713px;
+}
+
+.garland-5 {
+position: absolute;
+width: 1278px;
+bottom: 31px;
+}
+
+.dancingSanta {
+position: absolute;
+width: 426px;
+right: -375px;
+bottom: -313px;   
+}
+
+.video-unc-unc {
+position: absolute;
+left: 388px;
+box-shadow: 0px 0px 32px 23px #dbba0c;
+}
+
+.dancingSanta-1 {
+position: absolute;
+width: 313px;
+left: 951px;
+}
+
+.house-in-side {
+position: absolute;
+width: 1273px;
+height: 769px;
+top: 3933px;
+left: 5px;
+background-image: url('https://kartinki-life.ru/articles/2019/11/29/otkrytki-mercaushhie-animacionnye-gif-s-rozhdestvom-hristovym-17-7.gif');
+background-size: cover;
+}
+
+.fabulousForest {
+position: absolute;
+width: 1273px;
+height: 702px;
+bottom: 883px;
+box-shadow: 0px -15px 79px 17px blue;
+}
+
+.gouingSanta-2 {
+position: absolute;
+width: 234px;
+bottom: 854px;
+left: 1039px;
+animation-name: gouing;
+animation-delay: 500s;
+animation: go 45s infinite;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@keyframes gouing {
+from { left:0px; }
+to { left:1037px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*/
+}
+
+.garland-1 {
+position: absolute;
+width: 1273px;
+height: 123px;
+bottom: 696px;   
+}
+
+
+
+
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1024px) {
+
+.photo-christmas-socks { left: 0p; }	
+}
