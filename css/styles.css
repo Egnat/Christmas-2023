@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
-  width : 0.3px; 
-  height: 10px;
+  width : 1px; 
+  height: 2px;
   pacity: 0.02;
 } /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
 
@@ -403,7 +403,7 @@ top: 2713px;
 
 .garland-5 {
 position: absolute;
-width: 1278px;
+width: 1280px;
 bottom: 31px;
 }
 
