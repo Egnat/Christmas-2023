@@ -2,7 +2,9 @@
   width : 0.1px; 
   height: 5px;
   pacity: 0.02;
-} /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА*/
+} /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА и сделал свою. 
+Когда пишу сайт, чтобы на планшете отображалось содержимое от края до края страницы 
+без зазоров, прокрутку можно отключить. И включить для красоты по готовности сайта.*/
 
 ::-webkit-scrollbar-button {height: 50px; background :#42e10e; }  /*2 - кнопка*/  
 
@@ -132,7 +134,9 @@ left: 1091px;
 position: absolute;
 width: 318px;
 top: 48px;
-left: 9px;
+left: 24px;
+border-radius: 35px;
+box-shadow: 0px 3px 30px 31px beige;
 }
 
 .christmas-star {
@@ -151,6 +155,8 @@ height: 397px;
 bottom: -451px;
 left: 975px;
 border-radius: 117px;
+background-color: #008000;
+box-shadow: 0px 0px 21px 19px green;
 }
 
 .iframe {
