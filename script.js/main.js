@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function() {
   initSlider(sliderOptions);
 });
 
-const cardOff = document.querySelector('.cardOff_tree');//нажимаем на елку, чтобы  выключить Деда Мороза и Снегурку
+const cardOff = document.querySelector('.cardOff_tree');/*нажимаем на елку, чтобы  выключить Деда Мороза и Снегурку*/
 //const photoOff = document.querySelector('.photoOff img');//нужно если нажимать на самого Деда Мороза и Снегурку, чтобы их выключить
 // можно нажимать на самого Деда Мороза и Снегурку /*photoOff*/
 cardOff/*photoOff*/.addEventListener('click', function showHide(event) {
