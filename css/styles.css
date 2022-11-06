@@ -20,6 +20,7 @@ body {
 margin: 0 auto;
 box-sizing: border-box;
 background-image: url("https://www.chitalnya.ru/upload3/435/f56a1bdcaefa1a422fa0b8eccd786382.gif");
+background-size: cover;
 }
 
 christmas-photo {
